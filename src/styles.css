@@ -1,0 +1,15 @@
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  margin: 0;
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+.container { max-width: 960px; margin: 0 auto; padding: 24px; }
+.kpis { display: flex; gap: 16px; flex-wrap: wrap; }
+.kpi { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px; flex: 1; }
+.kpi h3 { margin: 0 0 8px; font-size: 13px; color: #8b949e; text-transform: uppercase; }
+.kpi strong { font-size: 22px; }
+table { width: 100%; border-collapse: collapse; margin-top: 24px; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #30363d; }
+button { cursor: pointer; }
